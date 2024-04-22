@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url('assets/table.jpg');
+  background-size: cover;
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  width: 300px;
+  height: 300px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  /* Add this line to center the element horizontally */
+  margin-top: 30vh;
+  /* Adjust the top margin as needed */
+}
+
+h1 {
+  color: goldenrod;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+button {
+  margin-bottom: 5px;
+  color: #ff0000;
+  width: 150px;
+  background: goldenrod;
+  padding: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+}
